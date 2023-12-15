@@ -29,19 +29,25 @@ This repository contains code for a persistence service using PostgreSQL and Typ
   </ul>
   </li>
   <li><b>Check Docker Version</b>
-  <ul>
+  <ul> 
     <li>Open the terminal and type:<br> 
-    
-      docker --version
- 
-    </li>
-    <li>Expected output: Docker version 24.0.7, build afdd53b</li>
+   
+  ```
+  docker --version
+  ```
+
+</li><li>Expected output: Docker version 24.0.7, build afdd53b</li>
   </ul>
   </li>
    <li><b>Check Docker Compose Version</b>
   <ul>
-    <li>Type the following command:<br> docker-compose --version</li>
-    <li>Expected output: Docker Compose version v2.23.3-desktop.2</li>
+    <li>Type the following command:<br>   
+      
+      ```
+      docker-compose --version
+      ``` 
+      </li> 
+      <li>Expected output: Docker Compose version v2.23.3-desktop.2</li>
   </ul>
   </li>
    <li><b>Clone the Repository</b>
