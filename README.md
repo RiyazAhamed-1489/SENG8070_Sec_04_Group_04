@@ -43,11 +43,11 @@ This repository contains code for a persistence service using PostgreSQL and Typ
   <ul>
     <li>Type the following command:<br>   
       
-      ```
-      docker-compose --version
-      ``` 
-      </li> 
-      <li>Expected output: Docker Compose version v2.23.3-desktop.2</li>
+  ```
+   docker-compose --version
+  ``` 
+      
+  </li><li>Expected output: Docker Compose version v2.23.3-desktop.2</li>
   </ul>
   </li>
    <li><b>Clone the Repository</b>
@@ -57,8 +57,13 @@ This repository contains code for a persistence service using PostgreSQL and Typ
   </li>
    <li><b>Install TypeORM</b>
   <ul>
-    <li>Open the project in Visual Studio Code and run:<br> npm install typeorm</li>
-    <li>Note: You might encounter an npm update message, follow the prompts to update to the latest version.</li>
+    <li>Open the project in Visual Studio Code and run:<br> 
+
+      
+   ```
+   npm install typeorm
+   ```
+</li><li>Note: You might encounter an npm update message, follow the prompts to update to the latest version.</li>
   </ul>
   </li>
    <li><b>Check TypeORM Version</b>
@@ -73,10 +78,19 @@ This repository contains code for a persistence service using PostgreSQL and Typ
 <ol>
   <li><b>Run Docker Compose</b>
   <ul>
-    <li>Execute the following command in the terminal:<br>docker-compose up</li>
-    <li>Expected output:<br>Container persistence-service-postgres-orm-db-1    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;         Running ... 0.0s<br>
-Container persistence-service-postgres-orm-backend-1  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      Running ... 0.0s<br>
-Container persistence-service-postgres-orm-reverse-proxy-1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Running ... 0.0s<br>
+    <li>Execute the following command in the terminal:<br>
+```      
+docker-compose up
+```    
+    </li>
+    <li>Expected output:<br>
+
+   ```
+   Container persistence-service-postgres-orm-db-1                Running ... 0.0s<br>
+   Container persistence-service-postgres-orm-backend-1           Running ... 0.0s<br>
+   Container persistence-service-postgres-orm-reverse-proxy-1     Running ... 0.0s<br>
+   ```
+      
 </li>
     
   </ul>
@@ -90,8 +104,13 @@ Container persistence-service-postgres-orm-reverse-proxy-1 &nbsp;&nbsp;&nbsp;&nb
   <li>
     <b>Install Database Driver</b>
     <ul>
-      <li>Install the PostgreSQL driver by running:<br>npm install pg</li>
-    </ul>
+      <li>Install the PostgreSQL driver by running:<br>
+
+        
+  ```    
+  npm install pg
+  ```  
+  </li></ul>
   </li>
 </ol>
 <br>
@@ -100,14 +119,28 @@ Container persistence-service-postgres-orm-reverse-proxy-1 &nbsp;&nbsp;&nbsp;&nb
   <li>
     <b>Navigate to Backend Directory</b>
     <ul>
-      <li>Change directory to the backend folder:<br>cd backend</li>
-    </ul>
+      <li>Change directory to the backend folder:<br>
+
+        
+  ```      
+  cd backend
+  ```    
+        
+  </li></ul>
   </li>
    <li>
     <b>Run Tests</b>
     <ul>
-      <li>Execute the following command to run tests:<brnpm run test</li>
-      <li>This will execute the tests for the backend.</li>   
+      <li>Execute the following command to run tests:<br>
+
+
+
+  ```
+  npm run test
+  ```
+
+  
+   </li><li>This will execute the tests for the backend.</li>   
     </ul>
   </li>
 </ol>
