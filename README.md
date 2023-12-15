@@ -30,7 +30,11 @@ This repository contains code for a persistence service using PostgreSQL and Typ
   </li>
   <li><b>Check Docker Version</b>
   <ul>
-    <li>Open the terminal and type:<br> docker --version</li>
+    <li>Open the terminal and type:<br> 
+      ```bash
+      docker --version
+      ```
+    </li>
     <li>Expected output: Docker version 24.0.7, build afdd53b</li>
   </ul>
   </li>
