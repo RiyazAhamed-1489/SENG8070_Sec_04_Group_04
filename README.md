@@ -64,8 +64,8 @@ This repository contains code for a persistence service using PostgreSQL and Typ
   <li><b>Run Docker Compose</b>
   <ul>
     <li>Execute the following command in the terminal:<br>docker-compose up</li>
-    <li>Expected output:<br>Container persistence-service-postgres-orm-db-1    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;         Running ... 0.0s<br>
-Container persistence-service-postgres-orm-backend-1  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      Running ... 0.0s<br>
+    <li>Expected output:<br>Container persistence-service-postgres-orm-db-1    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;         Running ... 0.0s<br>
+Container persistence-service-postgres-orm-backend-1  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      Running ... 0.0s<br>
 Container persistence-service-postgres-orm-reverse-proxy-1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Running ... 0.0s<br>
 </li>
     
