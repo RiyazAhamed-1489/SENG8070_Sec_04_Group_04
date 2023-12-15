@@ -31,9 +31,9 @@ This repository contains code for a persistence service using PostgreSQL and Typ
   <li><b>Check Docker Version</b>
   <ul>
     <li>Open the terminal and type:<br> 
-      ```bash
+    
       docker --version
-      ```
+ 
     </li>
     <li>Expected output: Docker version 24.0.7, build afdd53b</li>
   </ul>
@@ -95,15 +95,13 @@ Container persistence-service-postgres-orm-reverse-proxy-1 &nbsp;&nbsp;&nbsp;&nb
     <b>Navigate to Backend Directory</b>
     <ul>
       <li>Change directory to the backend folder:<br>cd backend</li>
-      
     </ul>
   </li>
    <li>
     <b>Run Tests</b>
     <ul>
       <li>Execute the following command to run tests:<brnpm run test</li>
-      <li>This will execute the tests for the backend.</li>
-      
+      <li>This will execute the tests for the backend.</li>   
     </ul>
   </li>
 </ol>
